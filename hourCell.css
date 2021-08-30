@@ -1,0 +1,17 @@
+.hourCell {
+    font: var(--body3-regular); 
+    place-self: start end;
+    transform: translateY(-50%);
+    padding-inline-end: 1rem;
+    position: relative; 
+}
+
+.hourCell::before{
+    content: "";
+    inline-size: .5rem;
+    block-size: 1px;
+    background: currentColor;
+    position: absolute;
+    inset-block-end: 50%;
+    inset-inline-end: 0;
+}

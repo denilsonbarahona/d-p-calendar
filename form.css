@@ -1,0 +1,47 @@
+.createTask .input { 
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-block-end: 1.5rem;
+}
+
+.createTask .input.is-outstanding input {
+   font: var(--subtitle-subtitle1);
+}
+
+.createTask .input-body {
+    display: flex; 
+    flex: 1;
+    gap: .25rem;
+}
+
+.createTask .input input,
+.createTask .input textarea{
+    flex: 1;
+    font: var(--body1-regular);
+    padding-block: .625rem;
+    padding-inline: .75rem;
+    border: none;
+    outline: none;
+    border-radius: .25rem;
+}
+
+.createTask .input i {
+    font-size: 1.5rem;
+}
+
+.createTask .input:last-child {
+    margin-block-end: 0;
+}
+
+.createTask .input input:focus,
+.createTask .input input:hover,
+.createTask .input textarea:focus,
+.createTask .input textarea:hover {
+    background: var(--gray10);
+}
+
+.createTask .input input:focus,
+.createTask .input textarea:focus {
+    box-shadow: 0 2px 0 var(--blue10);
+}

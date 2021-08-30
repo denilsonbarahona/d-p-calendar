@@ -1,0 +1,32 @@
+.search {
+    border: none; 
+    block-size: 2.5rem;
+    max-inline-size: 12.25rem;
+    inline-size: 100%;
+    font: var(--body1-regular);
+    background: var(--gray10);
+    border-radius: .25rem;
+    padding-inline-start: 2.5rem;
+}
+
+.search::placeholder{
+    color: var(--gray20);
+}
+
+.searchform {
+    position: relative;
+}
+
+.searchform .profile{
+    position: absolute;
+    font-size: 1rem;
+    inset-block-start: calc(50% - .5rem); 
+        /*esto signifca que se posiciona en el 50% del elemento - la mitad del tamaño del propio elemento*/
+    inset-block-end: 0;
+    inset-inline-start: 1rem;
+    /* transform: translatey( -65%  ); */
+    /*esta es otra forma de posicionar elementos centrados*/
+    vertical-align: middle;
+
+}
+

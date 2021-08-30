@@ -1,0 +1,23 @@
+.header{
+    inline-size: 100%;
+    padding: 1.5rem;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-block-end: 1px solid var(--gray10);
+}
+
+
+.headerContainer-navigation,
+.headerContainer-navigation .headerContainer-menu,
+.header .headerContainer-settings {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.headerContainer-navigation,
+.header .headerContainer-settings {
+  gap: 3rem;
+}
+
